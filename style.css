@@ -1,1 +1,83 @@
+/*
+  Program name: style.css
+  Author: Emmanuel Azinge
+  Date created: 2025-07-02
+  Description: External stylesheet for Homework 3 - Checkup and Chill Clinic
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e003e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  text-align: center;
+  background-color: #4b0082;
+  padding: 20px;
+}
+
+#banner h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: #ffccff;
+}
+
+#banner p {
+  font-size: 1em;
+  margin-top: 5px;
+  color: #ccccff;
+}
+
+.form-table {
+  background-color: #d8b4e2;
+  color: #000000;
+  margin: 20px auto;
+  padding: 20px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4b0082;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+td input[type="text"],
+td select {
+  display: inline-block;
+  width: auto;
+  max-width: 180px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+td label {
+  margin-right: 15px;
+  display: inline-block;
+}
 
